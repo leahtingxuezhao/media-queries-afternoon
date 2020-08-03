@@ -1,0 +1,85 @@
+.iconWrapper {
+  width: 18vh;
+  height: 18vh;
+  background-color: rgb(254, 202, 25);
+  border-radius: 50%;
+  display: flex;
+  margin: auto;
+}
+
+.icon {
+  width: 11vh;
+  height: 11vh;
+  filter: invert(100);
+  margin: auto;
+}
+
+.icon2 {
+  width: 9vh;
+  height: 11vh;
+  filter: invert(100);
+  margin: auto;
+}
+
+.service-layer1 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100vw;
+  justify-content: space-around;
+}
+.service-layer2 {
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.service-layer3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 30px;
+}
+
+@media (max-width: 800px) {
+  .service-layer3 {
+    width: 100%;
+  }
+}
+.service-text {
+  width: 25vw;
+  font-size: 2.2vh;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: gray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.service-topic {
+  width: 25vw;
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+
+.service-header {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.service-comment {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: gray;
+  font-size: 15px;
+}
+
+.shc {
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 10vh;
+}

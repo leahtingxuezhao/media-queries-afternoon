@@ -1,0 +1,97 @@
+.portfolio {
+  background-color: rgb(241, 241, 241);
+  min-height: 150vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  position: relative;
+}
+
+.portfolio-container {
+  width: 25vw;
+  min-width: 250px;
+  display: inline-block;
+  background-color: white;
+  margin: 20px;
+  height: 50vh;
+  position: relative;
+}
+
+.portfolio-pic {
+  width: 25vw;
+  min-width: 250px;
+  height: 18.75vw;
+  min-height: 187.5px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.portfolio-topic {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.portfolio-comment {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: gray;
+}
+
+.portfolio.box {
+  display: flex;
+}
+
+.portfolio-head {
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.portfolio-plus {
+  width: 80px;
+  filter: invert(100);
+  visibility: hidden;
+}
+
+.portfolio-plus:hover {
+  width: 80px;
+  filter: invert(100);
+  visibility: visible;
+}
+
+.portfolio-hover {
+  width: 25vw;
+  min-width: 250px;
+  height: 18.75vw;
+  min-height: 187.5px;
+  position: relative;
+  z-index: 100;
+  background-color: transparent;
+}
+
+.portfolio-hover:hover {
+  width: 25vw;
+  min-width: 250px;
+  height: 18.75vw;
+  min-height: 187.5px;
+  position: relative;
+  z-index: 100;
+  background-color: rgb(254, 202, 25);
+  opacity: 90%;
+}
+
+.portfolio-plus {
+  visibility: hidden;
+  width: 80px;
+  filter: invert(100);
+  z-index: 5;
+  margin-top: 20%;
+}
+
+.portfolio-hover:hover .portfolio-plus {
+  visibility: visible;
+}
